@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-12T22:20:27+01:00",
+ "aggiornato": "2026-11-17T18:25:41+01:00",
  "idgirone": 421,
  "squadre": [
   {
@@ -35,12 +35,12 @@
    "nome": "REAL TURAN C8 (SEI RESTAURI)"
   },
   {
-   "id": 2477,
-   "nome": "REAL GNECA MIAMI"
-  },
-  {
    "id": 2481,
    "nome": "MCONOR PUB"
+  },
+  {
+   "id": 2477,
+   "nome": "REAL GNECA MIAMI"
   },
   {
    "id": 2484,
@@ -65,13 +65,13 @@
     "squadraId": 2479,
     "nome": "F.C. PELIGROS",
     "pos": 1,
-    "pt": 27,
-    "g": 9,
+    "pt": 28,
+    "g": 10,
     "v": 9,
-    "n": 0,
+    "n": 1,
     "p": 0,
-    "gf": 59,
-    "gs": 11,
+    "gf": 63,
+    "gs": 15,
     "dr": 48
    },
    {
@@ -166,9 +166,22 @@
     "dr": -12
    },
    {
+    "squadraId": 2481,
+    "nome": "MCONOR PUB",
+    "pos": 9,
+    "pt": 10,
+    "g": 9,
+    "v": 3,
+    "n": 1,
+    "p": 5,
+    "gf": 24,
+    "gs": 27,
+    "dr": -3
+   },
+   {
     "squadraId": 2477,
     "nome": "REAL GNECA MIAMI",
-    "pos": 9,
+    "pos": 10,
     "pt": 10,
     "g": 9,
     "v": 3,
@@ -177,19 +190,6 @@
     "gf": 13,
     "gs": 21,
     "dr": -8
-   },
-   {
-    "squadraId": 2481,
-    "nome": "MCONOR PUB",
-    "pos": 10,
-    "pt": 9,
-    "g": 8,
-    "v": 3,
-    "n": 0,
-    "p": 5,
-    "gf": 20,
-    "gs": 23,
-    "dr": -3
    },
    {
     "squadraId": 2484,
@@ -1009,9 +1009,9 @@
    "ora": "22:00",
    "casaId": 2479,
    "ospiteId": 2481,
-   "golCasa": null,
-   "golOspite": null,
-   "giocata": false,
+   "golCasa": 4,
+   "golOspite": 4,
+   "giocata": true,
    "tavolino": false
   },
   {
@@ -14266,6 +14266,201 @@
    "migliore": {
     "squadraId": 2479,
     "nome": "VIDAL GIACOMO"
+   },
+   "completo": true
+  },
+  "14209": {
+   "marcatori": [
+    {
+     "squadraId": 2479,
+     "nome": "BARCHITTA FRANCESCO",
+     "minuto": 21
+    },
+    {
+     "squadraId": 2479,
+     "nome": "GIRARDI DIEGO",
+     "minuto": 27
+    },
+    {
+     "squadraId": 2479,
+     "nome": "SPONGA BRANDO",
+     "minuto": 30
+    },
+    {
+     "squadraId": 2479,
+     "nome": "BARONE MANUEL",
+     "minuto": 33
+    },
+    {
+     "squadraId": 2481,
+     "nome": "CALZA MATTEO",
+     "minuto": 13
+    },
+    {
+     "squadraId": 2481,
+     "nome": "BON ALBERTO",
+     "minuto": 21
+    },
+    {
+     "squadraId": 2481,
+     "nome": "CALZA MATTEO",
+     "minuto": 32
+    },
+    {
+     "squadraId": 2481,
+     "nome": "CALZA MATTEO",
+     "minuto": 44
+    }
+   ],
+   "formazioni": [
+    {
+     "squadraId": 2479,
+     "nome": "VIDAL GIACOMO",
+     "numero": 1,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2481,
+     "nome": "CALLEGARO MATTEO",
+     "numero": 1,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2479,
+     "nome": "CITTON FILIPPO",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2481,
+     "nome": "BON ALBERTO",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2479,
+     "nome": "PALAZZI CHRISTIAN",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2481,
+     "nome": "CALZA MATTEO",
+     "numero": 3,
+     "voto": 7.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2479,
+     "nome": "PRESTI MATTEO",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2481,
+     "nome": "BRIKI ANIS",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2479,
+     "nome": "BARCHITTA FRANCESCO",
+     "numero": 5,
+     "voto": null,
+     "ammonito": true,
+     "espulso": true
+    },
+    {
+     "squadraId": 2481,
+     "nome": "SPONCHIADO MATTIA",
+     "numero": 5,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2479,
+     "nome": "SPONGA BRANDO",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2481,
+     "nome": "POLO GIOVANNI",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2479,
+     "nome": "RAPISARDA MARCO",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2481,
+     "nome": "DA LIO LEONARDO",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2479,
+     "nome": "BARONE MANUEL",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2481,
+     "nome": "MATTIELLO TAREK",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2479,
+     "nome": "GIRARDI DIEGO",
+     "numero": 9,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2479,
+     "nome": "PERRONI CHRISTIAN",
+     "numero": 10,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    }
+   ],
+   "migliore": {
+    "squadraId": 2479,
+    "nome": "GIRARDI DIEGO"
    },
    "completo": true
   }
