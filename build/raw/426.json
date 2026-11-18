@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-13T12:54:46+01:00",
+ "aggiornato": "2026-11-18T10:49:43+01:00",
  "idgirone": 426,
  "squadre": [
   {
@@ -9,6 +9,10 @@
   {
    "id": 2545,
    "nome": "LEVIX GROUP"
+  },
+  {
+   "id": 2544,
+   "nome": "PRINCIPE 1846"
   },
   {
    "id": 2551,
@@ -21,10 +25,6 @@
   {
    "id": 2552,
    "nome": "I PIÙ CALMI"
-  },
-  {
-   "id": 2544,
-   "nome": "PRINCIPE 1846"
   },
   {
    "id": 2550,
@@ -72,9 +72,22 @@
     "dr": 13
    },
    {
+    "squadraId": 2544,
+    "nome": "PRINCIPE 1846",
+    "pos": 3,
+    "pt": 9,
+    "g": 5,
+    "v": 3,
+    "n": 0,
+    "p": 2,
+    "gf": 29,
+    "gs": 16,
+    "dr": 13
+   },
+   {
     "squadraId": 2551,
     "nome": "TATANGA C5",
-    "pos": 3,
+    "pos": 4,
     "pt": 9,
     "g": 4,
     "v": 3,
@@ -87,7 +100,7 @@
    {
     "squadraId": 2546,
     "nome": "BARCA B",
-    "pos": 4,
+    "pos": 5,
     "pt": 9,
     "g": 5,
     "v": 3,
@@ -100,7 +113,7 @@
    {
     "squadraId": 2552,
     "nome": "I PIÙ CALMI",
-    "pos": 5,
+    "pos": 6,
     "pt": 8,
     "g": 5,
     "v": 2,
@@ -109,19 +122,6 @@
     "gf": 50,
     "gs": 33,
     "dr": 17
-   },
-   {
-    "squadraId": 2544,
-    "nome": "PRINCIPE 1846",
-    "pos": 6,
-    "pt": 6,
-    "g": 4,
-    "v": 2,
-    "n": 0,
-    "p": 2,
-    "gf": 20,
-    "gs": 15,
-    "dr": 5
    },
    {
     "squadraId": 2550,
@@ -167,13 +167,13 @@
     "nome": "F.C. DARDANIA",
     "pos": 10,
     "pt": 0,
-    "g": 4,
+    "g": 5,
     "v": 0,
     "n": 0,
-    "p": 4,
-    "gf": 17,
-    "gs": 47,
-    "dr": -30
+    "p": 5,
+    "gf": 18,
+    "gs": 56,
+    "dr": -38
    }
   ]
  },
@@ -521,9 +521,9 @@
    "ora": "21:00",
    "casaId": 2547,
    "ospiteId": 2544,
-   "golCasa": null,
-   "golOspite": null,
-   "giocata": false,
+   "golCasa": 1,
+   "golOspite": 9,
+   "giocata": true,
    "tavolino": false
   },
   {
@@ -5107,6 +5107,187 @@
    "migliore": {
     "squadraId": 2545,
     "nome": "LEVITSKYI RUSLAN"
+   },
+   "completo": true
+  },
+  "14865": {
+   "marcatori": [
+    {
+     "squadraId": 2547,
+     "nome": "LUSHAJ FERID",
+     "minuto": 28
+    },
+    {
+     "squadraId": 2544,
+     "nome": "ROMANUCCI MARCO GAETANO",
+     "minuto": 8
+    },
+    {
+     "squadraId": 2544,
+     "nome": "LIBURDI KRISTIAN",
+     "minuto": 9
+    },
+    {
+     "squadraId": 2544,
+     "nome": "LANDI LUCA",
+     "minuto": 12
+    },
+    {
+     "squadraId": 2544,
+     "nome": "CABROTTI KEVIN",
+     "minuto": 12
+    },
+    {
+     "squadraId": 2544,
+     "nome": "LIBURDI KRISTIAN",
+     "minuto": 16
+    },
+    {
+     "squadraId": 2544,
+     "nome": "LIBURDI KRISTIAN",
+     "minuto": 29
+    },
+    {
+     "squadraId": 2544,
+     "nome": "LANDI LUCA",
+     "minuto": 31
+    },
+    {
+     "squadraId": 2544,
+     "nome": "LANDI LUCA",
+     "minuto": 33
+    },
+    {
+     "squadraId": 2544,
+     "nome": "LANDI LUCA",
+     "minuto": 44
+    }
+   ],
+   "formazioni": [
+    {
+     "squadraId": 2547,
+     "nome": "EGZON HAJDARI",
+     "numero": 1,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2544,
+     "nome": "BRACCIA VALERIO",
+     "numero": 1,
+     "voto": 8.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "KRASNIQI ARLIND",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": true
+    },
+    {
+     "squadraId": 2544,
+     "nome": "ALLOCCA DANIELE",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "HOXHAJ URIM",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2544,
+     "nome": "LANDI LUCA",
+     "numero": 3,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "BEKOLLI RINOR",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2544,
+     "nome": "ROMANUCCI MARCO GAETANO",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "RAMADAN ZOGAJ",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2544,
+     "nome": "LIBURDI KRISTIAN",
+     "numero": 5,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "LUSHAJ FERID",
+     "numero": 6,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2544,
+     "nome": "CABROTTI KEVIN",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "MORINA BARDH",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "HOXHA VALDRIN",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "CECCATO ALVISE",
+     "numero": 9,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    }
+   ],
+   "migliore": {
+    "squadraId": 2547,
+    "nome": "LUSHAJ FERID"
    },
    "completo": true
   }

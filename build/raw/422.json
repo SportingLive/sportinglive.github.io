@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-17T18:25:44+01:00",
+ "aggiornato": "2026-11-18T10:49:38+01:00",
  "idgirone": 422,
  "squadre": [
   {
@@ -31,12 +31,12 @@
    "nome": "DIERRE VENETO"
   },
   {
-   "id": 2494,
-   "nome": "BEVERLYAMARONE"
-  },
-  {
    "id": 2502,
    "nome": "F.C. SCAVESAI"
+  },
+  {
+   "id": 2494,
+   "nome": "BEVERLYAMARONE"
   },
   {
    "id": 2501,
@@ -91,13 +91,13 @@
     "squadraId": 2500,
     "nome": "EDIT",
     "pos": 3,
-    "pt": 16,
-    "g": 8,
+    "pt": 17,
+    "g": 9,
     "v": 5,
-    "n": 1,
+    "n": 2,
     "p": 2,
-    "gf": 36,
-    "gs": 26,
+    "gf": 38,
+    "gs": 28,
     "dr": 10
    },
    {
@@ -153,9 +153,22 @@
     "dr": -7
    },
    {
+    "squadraId": 2502,
+    "nome": "F.C. SCAVESAI",
+    "pos": 8,
+    "pt": 11,
+    "g": 9,
+    "v": 3,
+    "n": 2,
+    "p": 4,
+    "gf": 33,
+    "gs": 32,
+    "dr": 1
+   },
+   {
     "squadraId": 2494,
     "nome": "BEVERLYAMARONE",
-    "pos": 8,
+    "pos": 9,
     "pt": 11,
     "g": 9,
     "v": 3,
@@ -164,19 +177,6 @@
     "gf": 33,
     "gs": 41,
     "dr": -8
-   },
-   {
-    "squadraId": 2502,
-    "nome": "F.C. SCAVESAI",
-    "pos": 9,
-    "pt": 10,
-    "g": 8,
-    "v": 3,
-    "n": 1,
-    "p": 4,
-    "gf": 31,
-    "gs": 30,
-    "dr": 1
    },
    {
     "squadraId": 2501,
@@ -1021,9 +1021,9 @@
    "ora": "20:30",
    "casaId": 2500,
    "ospiteId": 2502,
-   "golCasa": null,
-   "golOspite": null,
-   "giocata": false,
+   "golCasa": 2,
+   "golOspite": 2,
+   "giocata": true,
    "tavolino": false
   },
   {
@@ -14868,6 +14868,197 @@
    "migliore": {
     "squadraId": 2491,
     "nome": "BARBIERO LUCA"
+   },
+   "completo": true
+  },
+  "14393": {
+   "marcatori": [
+    {
+     "squadraId": 2500,
+     "nome": "TREVISAN SIMONE",
+     "minuto": 21
+    },
+    {
+     "squadraId": 2500,
+     "nome": "TREVISAN SIMONE",
+     "minuto": 32
+    },
+    {
+     "squadraId": 2502,
+     "nome": "PENZO MATTIA",
+     "minuto": 27
+    },
+    {
+     "squadraId": 2502,
+     "nome": "CAROLDI TOMMASO",
+     "minuto": 28
+    }
+   ],
+   "formazioni": [
+    {
+     "squadraId": 2500,
+     "nome": "TESAN MAICOL",
+     "numero": 1,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2502,
+     "nome": "MENEGAZZO TOMMASO",
+     "numero": 1,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2500,
+     "nome": "ZADRO SIMONE",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2502,
+     "nome": "FORT RICCARDO",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2500,
+     "nome": "BORGATO ANDREA",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2502,
+     "nome": "CORRAS SAMUELE",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2500,
+     "nome": "GIANNI ALESSANDRO",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2502,
+     "nome": "PENZO MATTIA",
+     "numero": 4,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2500,
+     "nome": "FAINELLO RAOUL",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2502,
+     "nome": "BETTIN NICOLO´",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2500,
+     "nome": "ZENNARO ALVISE",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2502,
+     "nome": "PALMARIN SAMUEL",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2500,
+     "nome": "FORNARO LUCA",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2502,
+     "nome": "VALENTINI RUBEN",
+     "numero": 7,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2500,
+     "nome": "CAPPOLA RICCARDO",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2502,
+     "nome": "PANIZZI ANDREA",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2500,
+     "nome": "TREVISAN SIMONE",
+     "numero": 9,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2502,
+     "nome": "CAROLDI TOMMASO",
+     "numero": 9,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2500,
+     "nome": "PELIZZARO SEBASTIANO",
+     "numero": 10,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2502,
+     "nome": "PELLEGRINI LEONARDO",
+     "numero": 10,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    }
+   ],
+   "migliore": {
+    "squadraId": 2500,
+    "nome": "TESAN MAICOL"
    },
    "completo": true
   }
