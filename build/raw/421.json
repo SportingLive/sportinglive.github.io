@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-19T19:55:58+01:00",
+ "aggiornato": "2026-11-20T10:45:13+01:00",
  "idgirone": 421,
  "squadre": [
   {
@@ -7,12 +7,12 @@
    "nome": "F.C. PELIGROS"
   },
   {
-   "id": 2478,
-   "nome": "FORTITUDO HURRICANES"
-  },
-  {
    "id": 2487,
    "nome": "F.C. BECK'S"
+  },
+  {
+   "id": 2478,
+   "nome": "FORTITUDO HURRICANES"
   },
   {
    "id": 2486,
@@ -75,9 +75,22 @@
     "dr": 48
    },
    {
+    "squadraId": 2487,
+    "nome": "F.C. BECK'S",
+    "pos": 2,
+    "pt": 22,
+    "g": 9,
+    "v": 7,
+    "n": 1,
+    "p": 1,
+    "gf": 38,
+    "gs": 19,
+    "dr": 19
+   },
+   {
     "squadraId": 2478,
     "nome": "FORTITUDO HURRICANES",
-    "pos": 2,
+    "pos": 3,
     "pt": 22,
     "g": 10,
     "v": 7,
@@ -86,19 +99,6 @@
     "gf": 34,
     "gs": 26,
     "dr": 8
-   },
-   {
-    "squadraId": 2487,
-    "nome": "F.C. BECK'S",
-    "pos": 3,
-    "pt": 19,
-    "g": 8,
-    "v": 6,
-    "n": 1,
-    "p": 1,
-    "gf": 31,
-    "gs": 18,
-    "dr": 13
    },
    {
     "squadraId": 2486,
@@ -235,13 +235,13 @@
     "nome": "BROCCA JUNIORS",
     "pos": 14,
     "pt": 3,
-    "g": 9,
+    "g": 10,
     "v": 1,
     "n": 0,
-    "p": 8,
-    "gf": 11,
-    "gs": 41,
-    "dr": -30
+    "p": 9,
+    "gf": 12,
+    "gs": 48,
+    "dr": -36
    }
   ]
  },
@@ -1081,9 +1081,9 @@
    "ora": "21:30",
    "casaId": 2487,
    "ospiteId": 2488,
-   "golCasa": null,
-   "golOspite": null,
-   "giocata": false,
+   "golCasa": 7,
+   "golOspite": 1,
+   "giocata": true,
    "tavolino": false
   },
   {
@@ -15434,6 +15434,257 @@
    "migliore": {
     "squadraId": 2486,
     "nome": "PANFILO BARNABA"
+   },
+   "completo": true
+  },
+  "14221": {
+   "marcatori": [
+    {
+     "squadraId": 2487,
+     "nome": "BETTIN THOMAS",
+     "minuto": 6
+    },
+    {
+     "squadraId": 2487,
+     "nome": "BETTIN THOMAS",
+     "minuto": 11
+    },
+    {
+     "squadraId": 2487,
+     "nome": "SILVESTRI GIOELE",
+     "minuto": 13
+    },
+    {
+     "squadraId": 2487,
+     "nome": "BETTIN THOMAS",
+     "minuto": 20
+    },
+    {
+     "squadraId": 2487,
+     "nome": "SILVESTRI GIOELE",
+     "minuto": 21
+    },
+    {
+     "squadraId": 2487,
+     "nome": "CALCE FRANCESCO",
+     "minuto": 22
+    },
+    {
+     "squadraId": 2487,
+     "nome": "SILVESTRI GIOELE",
+     "minuto": 42
+    },
+    {
+     "squadraId": 2488,
+     "nome": "PETRITI KEVIN",
+     "minuto": 19
+    }
+   ],
+   "formazioni": [
+    {
+     "squadraId": 2487,
+     "nome": "MORON DAVIDE",
+     "numero": 1,
+     "voto": 6.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2488,
+     "nome": "TENDERINI LORENZO",
+     "numero": 1,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "VIANELLO GIACOMO",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2488,
+     "nome": "ESPOSITO FRANCESCO PAOLO",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "BANCI MARCO",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2488,
+     "nome": "AGNOLIN MARCO",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "CALCE FRANCESCO",
+     "numero": 4,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2488,
+     "nome": "VIVAT MAXIME",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "MARINELLO LUCA",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2488,
+     "nome": "PETRITI KEVIN",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "BALDIN ALVISE",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2488,
+     "nome": "HUDOROVIC SAMUEL",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "CASANO JACOPO",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2488,
+     "nome": "ANATRA' FRANCESCO",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "CAUSHAJ XHULJANO",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2488,
+     "nome": "ANATRA' STEFANO",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "MEMMO MARCO",
+     "numero": 9,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2488,
+     "nome": "PASQUALETTO LORENZO",
+     "numero": 9,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "BUZZO ALESSANDRO",
+     "numero": 10,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "BETTIN THOMAS",
+     "numero": 11,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "ZORZETTO ALESSANDRO",
+     "numero": 12,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "GIUMAN FILIPPO",
+     "numero": 13,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "ONGARO GABRIEL",
+     "numero": 14,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "BATTISTIN MICHAEL",
+     "numero": 15,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2487,
+     "nome": "SILVESTRI GIOELE",
+     "numero": 16,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    }
+   ],
+   "migliore": {
+    "squadraId": 2487,
+    "nome": "BETTIN THOMAS"
    },
    "completo": true
   }

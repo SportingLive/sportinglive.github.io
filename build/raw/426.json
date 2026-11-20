@@ -1,10 +1,18 @@
 {
- "aggiornato": "2026-11-18T10:49:43+01:00",
+ "aggiornato": "2026-11-20T10:45:22+01:00",
  "idgirone": 426,
  "squadre": [
   {
    "id": 2543,
    "nome": "CHAOS LEGACY"
+  },
+  {
+   "id": 2551,
+   "nome": "TATANGA C5"
+  },
+  {
+   "id": 2552,
+   "nome": "I PIÙ CALMI"
   },
   {
    "id": 2545,
@@ -15,16 +23,8 @@
    "nome": "PRINCIPE 1846"
   },
   {
-   "id": 2551,
-   "nome": "TATANGA C5"
-  },
-  {
    "id": 2546,
    "nome": "BARCA B"
-  },
-  {
-   "id": 2552,
-   "nome": "I PIÙ CALMI"
   },
   {
    "id": 2550,
@@ -49,92 +49,92 @@
     "squadraId": 2543,
     "nome": "CHAOS LEGACY",
     "pos": 1,
-    "pt": 10,
-    "g": 5,
-    "v": 3,
+    "pt": 13,
+    "g": 6,
+    "v": 4,
     "n": 1,
     "p": 1,
-    "gf": 41,
-    "gs": 22,
+    "gf": 53,
+    "gs": 25,
+    "dr": 28
+   },
+   {
+    "squadraId": 2551,
+    "nome": "TATANGA C5",
+    "pos": 2,
+    "pt": 12,
+    "g": 5,
+    "v": 4,
+    "n": 0,
+    "p": 1,
+    "gf": 42,
+    "gs": 32,
+    "dr": 10
+   },
+   {
+    "squadraId": 2552,
+    "nome": "I PIÙ CALMI",
+    "pos": 3,
+    "pt": 11,
+    "g": 6,
+    "v": 3,
+    "n": 2,
+    "p": 1,
+    "gf": 58,
+    "gs": 39,
     "dr": 19
    },
    {
     "squadraId": 2545,
     "nome": "LEVIX GROUP",
-    "pos": 2,
+    "pos": 4,
     "pt": 10,
-    "g": 4,
+    "g": 5,
     "v": 3,
     "n": 1,
-    "p": 0,
-    "gf": 29,
-    "gs": 16,
-    "dr": 13
+    "p": 1,
+    "gf": 35,
+    "gs": 27,
+    "dr": 8
    },
    {
     "squadraId": 2544,
     "nome": "PRINCIPE 1846",
-    "pos": 3,
-    "pt": 9,
-    "g": 5,
-    "v": 3,
-    "n": 0,
-    "p": 2,
-    "gf": 29,
-    "gs": 16,
-    "dr": 13
-   },
-   {
-    "squadraId": 2551,
-    "nome": "TATANGA C5",
-    "pos": 4,
-    "pt": 9,
-    "g": 4,
-    "v": 3,
-    "n": 0,
-    "p": 1,
-    "gf": 31,
-    "gs": 26,
-    "dr": 5
-   },
-   {
-    "squadraId": 2546,
-    "nome": "BARCA B",
     "pos": 5,
     "pt": 9,
     "g": 5,
     "v": 3,
     "n": 0,
     "p": 2,
-    "gf": 31,
-    "gs": 31,
-    "dr": 0
+    "gf": 29,
+    "gs": 16,
+    "dr": 13
    },
    {
-    "squadraId": 2552,
-    "nome": "I PIÙ CALMI",
+    "squadraId": 2546,
+    "nome": "BARCA B",
     "pos": 6,
-    "pt": 8,
-    "g": 5,
-    "v": 2,
-    "n": 2,
-    "p": 1,
-    "gf": 50,
-    "gs": 33,
-    "dr": 17
+    "pt": 9,
+    "g": 6,
+    "v": 3,
+    "n": 0,
+    "p": 3,
+    "gf": 37,
+    "gs": 39,
+    "dr": -2
    },
    {
     "squadraId": 2550,
     "nome": "BOZKURT",
     "pos": 7,
     "pt": 5,
-    "g": 4,
+    "g": 5,
     "v": 1,
     "n": 2,
-    "p": 1,
-    "gf": 24,
-    "gs": 26,
-    "dr": -2
+    "p": 2,
+    "gf": 27,
+    "gs": 38,
+    "dr": -11
    },
    {
     "squadraId": 2548,
@@ -485,9 +485,9 @@
    "ora": "20:00",
    "casaId": 2552,
    "ospiteId": 2546,
-   "golCasa": null,
-   "golOspite": null,
-   "giocata": false,
+   "golCasa": 8,
+   "golOspite": 6,
+   "giocata": true,
    "tavolino": false
   },
   {
@@ -497,9 +497,9 @@
    "ora": "21:00",
    "casaId": 2551,
    "ospiteId": 2545,
-   "golCasa": null,
-   "golOspite": null,
-   "giocata": false,
+   "golCasa": 11,
+   "golOspite": 6,
+   "giocata": true,
    "tavolino": false
   },
   {
@@ -533,9 +533,9 @@
    "ora": "20:30",
    "casaId": 2550,
    "ospiteId": 2543,
-   "golCasa": null,
-   "golOspite": null,
-   "giocata": false,
+   "golCasa": 3,
+   "golOspite": 12,
+   "giocata": true,
    "tavolino": false
   },
   {
@@ -553,7 +553,7 @@
   {
    "id": 14871,
    "giornata": 7,
-   "data": "2026-11-26",
+   "data": "2026-11-25",
    "ora": "21:00",
    "casaId": 2544,
    "ospiteId": 2551,
@@ -5288,6 +5288,605 @@
    "migliore": {
     "squadraId": 2547,
     "nome": "LUSHAJ FERID"
+   },
+   "completo": true
+  },
+  "14859": {
+   "marcatori": [
+    {
+     "squadraId": 2552,
+     "nome": "VEIZI MARJO",
+     "minuto": 11
+    },
+    {
+     "squadraId": 2552,
+     "nome": "NIKOLIN NOOCI",
+     "minuto": 13
+    },
+    {
+     "squadraId": 2552,
+     "nome": "VEIZI MARJO",
+     "minuto": 15
+    },
+    {
+     "squadraId": 2552,
+     "nome": "VEIZI MARJO",
+     "minuto": 22
+    },
+    {
+     "squadraId": 2552,
+     "nome": "VEIZI MARJO",
+     "minuto": 30
+    },
+    {
+     "squadraId": 2552,
+     "nome": "SHALA ARXHEND",
+     "minuto": 31
+    },
+    {
+     "squadraId": 2552,
+     "nome": "VEIZI MARJO",
+     "minuto": 33
+    },
+    {
+     "squadraId": 2552,
+     "nome": "VEIZI MARJO",
+     "minuto": 44
+    },
+    {
+     "squadraId": 2546,
+     "nome": "SIDI CEYHUN",
+     "minuto": 14
+    },
+    {
+     "squadraId": 2546,
+     "nome": "KEREM EMULA",
+     "minuto": 17
+    },
+    {
+     "squadraId": 2546,
+     "nome": "SIDI CEYHUN",
+     "minuto": 30
+    },
+    {
+     "squadraId": 2546,
+     "nome": "KEREM EMULA",
+     "minuto": 32
+    },
+    {
+     "squadraId": 2546,
+     "nome": "SEJDI GULAYDIN",
+     "minuto": 40
+    },
+    {
+     "squadraId": 2546,
+     "nome": "SIDI CEYHUN",
+     "minuto": 41
+    }
+   ],
+   "formazioni": [
+    {
+     "squadraId": 2552,
+     "nome": "ENUEL SUTI",
+     "numero": 1,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2546,
+     "nome": "SARDER SALAM",
+     "numero": 1,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2552,
+     "nome": "VEIZI MARJO",
+     "numero": 2,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2546,
+     "nome": "SEJDI GULAYDIN",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2552,
+     "nome": "SHALA ARXHEND",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2546,
+     "nome": "SIDI CEYHUN",
+     "numero": 3,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2552,
+     "nome": "NIKOLIN NOOCI",
+     "numero": 4,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2546,
+     "nome": "SEJDI MERT",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2552,
+     "nome": "ENEA LLANAS",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2546,
+     "nome": "LJAMO ENIS",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2546,
+     "nome": "NURETIN IDRIS",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2546,
+     "nome": "KEREM EMULA",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    }
+   ],
+   "migliore": {
+    "squadraId": 2552,
+    "nome": "VEIZI MARJO"
+   },
+   "completo": true
+  },
+  "14861": {
+   "marcatori": [
+    {
+     "squadraId": 2551,
+     "nome": "ABDULA TAIR",
+     "minuto": 6
+    },
+    {
+     "squadraId": 2551,
+     "nome": "SUNER PERVIS",
+     "minuto": 7
+    },
+    {
+     "squadraId": 2551,
+     "nome": "ILYAS TUNCAY",
+     "minuto": 11
+    },
+    {
+     "squadraId": 2551,
+     "nome": "ABDULA TAIR",
+     "minuto": 13
+    },
+    {
+     "squadraId": 2551,
+     "nome": "BELO BAYRAM",
+     "minuto": 17
+    },
+    {
+     "squadraId": 2551,
+     "nome": "ILYAS TUNCAY",
+     "minuto": 18
+    },
+    {
+     "squadraId": 2551,
+     "nome": "SUNER PERVIS",
+     "minuto": 21
+    },
+    {
+     "squadraId": 2551,
+     "nome": "ILYAS TUNCAY",
+     "minuto": 27
+    },
+    {
+     "squadraId": 2551,
+     "nome": "ILYAS TUNCAY",
+     "minuto": 30
+    },
+    {
+     "squadraId": 2551,
+     "nome": "SUNER PERVIS",
+     "minuto": 32
+    },
+    {
+     "squadraId": 2551,
+     "nome": "SUNER PERVIS",
+     "minuto": 41
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "minuto": 5
+    },
+    {
+     "squadraId": 2545,
+     "nome": "LEVITSKYI RUSLAN",
+     "minuto": 16
+    },
+    {
+     "squadraId": 2545,
+     "nome": "GHEORGHE CIOCOI",
+     "minuto": 20
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "minuto": 22
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "minuto": 33
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "minuto": 41
+    }
+   ],
+   "formazioni": [
+    {
+     "squadraId": 2551,
+     "nome": "MUSTAFA ENGUEL",
+     "numero": 1,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2545,
+     "nome": "PJOLLA DEDE",
+     "numero": 1,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2551,
+     "nome": "BELO BAYRAM",
+     "numero": 2,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2545,
+     "nome": "GENUALDI ALESSIO",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2551,
+     "nome": "SUNER PERVIS",
+     "numero": 3,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2545,
+     "nome": "LEVITSKYI RUSLAN",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": true
+    },
+    {
+     "squadraId": 2551,
+     "nome": "BELO SELVI",
+     "numero": 4,
+     "voto": null,
+     "ammonito": true,
+     "espulso": false
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2551,
+     "nome": "PERVIS MEHMET",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2545,
+     "nome": "GHEORGHE CIOCOI",
+     "numero": 5,
+     "voto": null,
+     "ammonito": true,
+     "espulso": false
+    },
+    {
+     "squadraId": 2551,
+     "nome": "ILYAS TUNCAY",
+     "numero": 6,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2545,
+     "nome": "MARJAN GJINAI",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2551,
+     "nome": "ABDULA TAIR",
+     "numero": 7,
+     "voto": null,
+     "ammonito": true,
+     "espulso": false
+    }
+   ],
+   "migliore": {
+    "squadraId": 2551,
+    "nome": "MUSTAFA ENGUEL"
+   },
+   "completo": true
+  },
+  "14867": {
+   "marcatori": [
+    {
+     "squadraId": 2550,
+     "nome": "KAPLAN FURKAN",
+     "minuto": 15
+    },
+    {
+     "squadraId": 2550,
+     "nome": "HAJDAROGLU USEIN",
+     "minuto": 25
+    },
+    {
+     "squadraId": 2550,
+     "nome": "REDZEP OKAN",
+     "minuto": 38
+    },
+    {
+     "squadraId": 2543,
+     "nome": "MINTO DIMITRI",
+     "minuto": 4
+    },
+    {
+     "squadraId": 2543,
+     "nome": "EMRO GJOKKAN",
+     "minuto": 8
+    },
+    {
+     "squadraId": 2543,
+     "nome": "MALCI DENALDO",
+     "minuto": 11
+    },
+    {
+     "squadraId": 2543,
+     "nome": "EMRO GJOKKAN",
+     "minuto": 14
+    },
+    {
+     "squadraId": 2543,
+     "nome": "GRANZOTTO NICOLA",
+     "minuto": 15
+    },
+    {
+     "squadraId": 2543,
+     "nome": "MALCI DENALDO",
+     "minuto": 22
+    },
+    {
+     "squadraId": 2543,
+     "nome": "EMRO GJOKKAN",
+     "minuto": 22
+    },
+    {
+     "squadraId": 2543,
+     "nome": "ZOCCARATO ALBERTO",
+     "minuto": 28
+    },
+    {
+     "squadraId": 2543,
+     "nome": "EMRO GJOKKAN",
+     "minuto": 29
+    },
+    {
+     "squadraId": 2543,
+     "nome": "MALCI DENALDO",
+     "minuto": 33
+    },
+    {
+     "squadraId": 2543,
+     "nome": "EMRO GJOKKAN",
+     "minuto": 38
+    },
+    {
+     "squadraId": 2543,
+     "nome": "MINTO DIMITRI",
+     "minuto": 41
+    }
+   ],
+   "formazioni": [
+    {
+     "squadraId": 2550,
+     "nome": "FEJZO NEIM",
+     "numero": 1,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2543,
+     "nome": "VEDOVA ALBERTO",
+     "numero": 1,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2550,
+     "nome": "SEMSI ALIL",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2543,
+     "nome": "MALCI DENALDO",
+     "numero": 2,
+     "voto": 8.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2550,
+     "nome": "FEJZO FEJZO",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2543,
+     "nome": "ZOCCARATO ALBERTO",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2550,
+     "nome": "ASAN USNI",
+     "numero": 4,
+     "voto": 6.5,
+     "ammonito": true,
+     "espulso": false
+    },
+    {
+     "squadraId": 2543,
+     "nome": "BONUTTO GIOVANNI",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2550,
+     "nome": "REDZEP OKAN",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": true
+    },
+    {
+     "squadraId": 2543,
+     "nome": "GRANZOTTO NICOLA",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2550,
+     "nome": "FEJZO KEMAL",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2543,
+     "nome": "NART FEDERICO",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": true
+    },
+    {
+     "squadraId": 2550,
+     "nome": "HAJDAROGLU USEIN",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2543,
+     "nome": "HAJDAR ALPAJ",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2550,
+     "nome": "KAPLAN FURKAN",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2543,
+     "nome": "MINTO DIMITRI",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2543,
+     "nome": "EMRO GJOKKAN",
+     "numero": 9,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    }
+   ],
+   "migliore": {
+    "squadraId": 2550,
+    "nome": "ASAN USNI"
    },
    "completo": true
   }

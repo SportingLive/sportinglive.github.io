@@ -1,10 +1,14 @@
 {
- "aggiornato": "2026-11-17T18:25:36+01:00",
+ "aggiornato": "2026-11-20T10:45:10+01:00",
  "idgirone": 425,
  "squadre": [
   {
    "id": 2534,
    "nome": "ELYSIUM ENERGY GROUP"
+  },
+  {
+   "id": 2539,
+   "nome": "THE HATEFUL 8"
   },
   {
    "id": 2533,
@@ -17,10 +21,6 @@
   {
    "id": 2532,
    "nome": "NZ"
-  },
-  {
-   "id": 2539,
-   "nome": "THE HATEFUL 8"
   },
   {
    "id": 2535,
@@ -75,9 +75,22 @@
     "dr": 15
    },
    {
+    "squadraId": 2539,
+    "nome": "THE HATEFUL 8",
+    "pos": 2,
+    "pt": 18,
+    "g": 9,
+    "v": 6,
+    "n": 0,
+    "p": 3,
+    "gf": 35,
+    "gs": 28,
+    "dr": 7
+   },
+   {
     "squadraId": 2533,
     "nome": "LEVIX GROUP",
-    "pos": 2,
+    "pos": 3,
     "pt": 18,
     "g": 10,
     "v": 6,
@@ -90,7 +103,7 @@
    {
     "squadraId": 2538,
     "nome": "IMPRESA EDILE GAVAGNIN",
-    "pos": 3,
+    "pos": 4,
     "pt": 17,
     "g": 9,
     "v": 5,
@@ -103,7 +116,7 @@
    {
     "squadraId": 2532,
     "nome": "NZ",
-    "pos": 4,
+    "pos": 5,
     "pt": 17,
     "g": 10,
     "v": 5,
@@ -112,19 +125,6 @@
     "gf": 35,
     "gs": 24,
     "dr": 11
-   },
-   {
-    "squadraId": 2539,
-    "nome": "THE HATEFUL 8",
-    "pos": 5,
-    "pt": 15,
-    "g": 8,
-    "v": 5,
-    "n": 0,
-    "p": 3,
-    "gf": 33,
-    "gs": 27,
-    "dr": 6
    },
    {
     "squadraId": 2535,
@@ -196,13 +196,13 @@
     "nome": "F.C. PETTIMORTO",
     "pos": 11,
     "pt": 7,
-    "g": 8,
+    "g": 9,
     "v": 2,
     "n": 1,
-    "p": 5,
-    "gf": 13,
-    "gs": 30,
-    "dr": -17
+    "p": 6,
+    "gf": 14,
+    "gs": 32,
+    "dr": -18
    },
    {
     "squadraId": 2531,
@@ -1045,9 +1045,9 @@
    "ora": "20:30",
    "casaId": 2536,
    "ospiteId": 2539,
-   "golCasa": null,
-   "golOspite": null,
-   "giocata": false,
+   "golCasa": 1,
+   "golOspite": 2,
+   "giocata": true,
    "tavolino": false
   },
   {
@@ -14131,6 +14131,216 @@
    "migliore": {
     "squadraId": 2535,
     "nome": "FORMAGGIO GIANLUCA"
+   },
+   "completo": true
+  },
+  "14759": {
+   "marcatori": [
+    {
+     "squadraId": 2536,
+     "nome": "PAGAN RICCARDO",
+     "minuto": 14
+    },
+    {
+     "squadraId": 2539,
+     "nome": "NARDO NICOLO'",
+     "minuto": 14
+    },
+    {
+     "squadraId": 2539,
+     "nome": "DALLA BELLA MATTIA",
+     "minuto": 37
+    }
+   ],
+   "formazioni": [
+    {
+     "squadraId": 2536,
+     "nome": "BENIAMIN TOMMASO",
+     "numero": 1,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "MORON DAVIDE",
+     "numero": 1,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2536,
+     "nome": "CECCHINATO MATTIA",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "ZAMARA FILIPPO",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2536,
+     "nome": "BERTATO FRANCESCO",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "ZENNARO NICOLO'",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2536,
+     "nome": "PENSO ROCCO",
+     "numero": 4,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "BALLARIN SIMONE",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2536,
+     "nome": "BORDIN FILIPPO",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "TOCCHI ROCCO",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2536,
+     "nome": "MASSARO SALVATORE",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "ZANCHI ENRICO",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2536,
+     "nome": "BENEDETTI RICCARDO",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "BALLARIN ALVISE",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2536,
+     "nome": "PAGAN RICCARDO",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "BASAGLIA GIOVANNI",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2536,
+     "nome": "GALASSO TOMMASO",
+     "numero": 9,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "ANNICIELLO ALVISE",
+     "numero": 9,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2536,
+     "nome": "SEMENZATO GABRIELE",
+     "numero": 10,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "LUCICH LUDOVICO",
+     "numero": 10,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2536,
+     "nome": "MIRRA FILIPPO",
+     "numero": 11,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "DALLA BELLA MATTIA",
+     "numero": 11,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "NARDO NICOLO'",
+     "numero": 12,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    }
+   ],
+   "migliore": {
+    "squadraId": 2536,
+    "nome": "BENIAMIN TOMMASO"
    },
    "completo": true
   }
