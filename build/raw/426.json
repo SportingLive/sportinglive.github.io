@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-20T10:45:22+01:00",
+ "aggiornato": "2026-11-21T00:39:07+01:00",
  "idgirone": 426,
  "squadre": [
   {
@@ -541,8 +541,8 @@
   {
    "id": 14869,
    "giornata": 7,
-   "data": "2026-11-26",
-   "ora": "20:00",
+   "data": "2026-11-25",
+   "ora": "21:30",
    "casaId": 2546,
    "ospiteId": 2543,
    "golCasa": null,
