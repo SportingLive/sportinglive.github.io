@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-24T03:46:15+01:00",
+ "aggiornato": "2026-11-24T15:37:21+01:00",
  "idgirone": 421,
  "squadre": [
   {
@@ -981,7 +981,7 @@
   {
    "id": 14205,
    "giornata": 9,
-   "data": "2026-12-07",
+   "data": "2026-12-15",
    "ora": "20:30",
    "casaId": 2485,
    "ospiteId": 2490,
@@ -1307,8 +1307,8 @@
    "giornata": 13,
    "data": "2026-12-16",
    "ora": "20:30",
-   "casaId": 2478,
-   "ospiteId": 2485,
+   "casaId": 2479,
+   "ospiteId": 2480,
    "golCasa": null,
    "golOspite": null,
    "giocata": false,
@@ -1331,8 +1331,8 @@
    "giornata": 13,
    "data": "2026-12-17",
    "ora": "20:30",
-   "casaId": 2479,
-   "ospiteId": 2480,
+   "casaId": 2478,
+   "ospiteId": 2485,
    "golCasa": null,
    "golOspite": null,
    "giocata": false,
