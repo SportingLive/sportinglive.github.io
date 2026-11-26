@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-25T11:56:29+01:00",
+ "aggiornato": "2026-11-26T23:51:21+01:00",
  "idgirone": 425,
  "squadre": [
   {
@@ -7,12 +7,12 @@
    "nome": "ELYSIUM ENERGY GROUP"
   },
   {
-   "id": 2529,
-   "nome": "APERITIVO LA CORUNA"
-  },
-  {
    "id": 2539,
    "nome": "THE HATEFUL 8"
+  },
+  {
+   "id": 2529,
+   "nome": "APERITIVO LA CORUNA"
   },
   {
    "id": 2533,
@@ -75,9 +75,22 @@
     "dr": 17
    },
    {
+    "squadraId": 2539,
+    "nome": "THE HATEFUL 8",
+    "pos": 2,
+    "pt": 19,
+    "g": 10,
+    "v": 6,
+    "n": 1,
+    "p": 3,
+    "gf": 37,
+    "gs": 30,
+    "dr": 7
+   },
+   {
     "squadraId": 2529,
     "nome": "APERITIVO LA CORUNA",
-    "pos": 2,
+    "pos": 3,
     "pt": 18,
     "g": 10,
     "v": 5,
@@ -86,19 +99,6 @@
     "gf": 36,
     "gs": 27,
     "dr": 9
-   },
-   {
-    "squadraId": 2539,
-    "nome": "THE HATEFUL 8",
-    "pos": 3,
-    "pt": 18,
-    "g": 9,
-    "v": 6,
-    "n": 0,
-    "p": 3,
-    "gf": 35,
-    "gs": 28,
-    "dr": 7
    },
    {
     "squadraId": 2533,
@@ -182,13 +182,13 @@
     "squadraId": 2530,
     "nome": "AUTOSANDONA'",
     "pos": 10,
-    "pt": 10,
-    "g": 9,
+    "pt": 11,
+    "g": 10,
     "v": 3,
-    "n": 1,
+    "n": 2,
     "p": 5,
-    "gf": 26,
-    "gs": 28,
+    "gf": 28,
+    "gs": 30,
     "dr": -2
    },
    {
@@ -1141,9 +1141,9 @@
    "ora": "20:30",
    "casaId": 2539,
    "ospiteId": 2530,
-   "golCasa": null,
-   "golOspite": null,
-   "giocata": false,
+   "golCasa": 2,
+   "golOspite": 2,
+   "giocata": true,
    "tavolino": false
   },
   {
@@ -15515,6 +15515,189 @@
    "migliore": {
     "squadraId": 2529,
     "nome": "PAGLIARIN ERIC"
+   },
+   "completo": true
+  },
+  "14775": {
+   "marcatori": [
+    {
+     "squadraId": 2539,
+     "nome": "CASTILLO JOHNNY",
+     "minuto": 27
+    },
+    {
+     "squadraId": 2539,
+     "nome": "ANNICIELLO ALVISE",
+     "minuto": 32
+    },
+    {
+     "squadraId": 2530,
+     "nome": "MARINI IVAN",
+     "minuto": 14
+    },
+    {
+     "squadraId": 2530,
+     "nome": "MIGOTTO ALVISE",
+     "minuto": 39
+    }
+   ],
+   "formazioni": [
+    {
+     "squadraId": 2539,
+     "nome": "MORON DAVIDE",
+     "numero": 1,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2530,
+     "nome": "DE FELICE TOMAS",
+     "numero": 1,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "ZAMARA FILIPPO",
+     "numero": 2,
+     "voto": null,
+     "ammonito": true,
+     "espulso": false
+    },
+    {
+     "squadraId": 2530,
+     "nome": "CARRARO ROBERTO",
+     "numero": 2,
+     "voto": null,
+     "ammonito": true,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "ZENNARO NICOLO'",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2530,
+     "nome": "FIACCHI PIETRO",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "BALLARIN SIMONE",
+     "numero": 4,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2530,
+     "nome": "ZAFFALON JACOPO",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "ZANCHI ENRICO",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2530,
+     "nome": "VIO CHRISTIAN",
+     "numero": 5,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "RICUCCI ALESSANDRO",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2530,
+     "nome": "DE BERNARDIN DAVIDE",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "ANNICIELLO ALVISE",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2530,
+     "nome": "MARINI IVAN",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "BASAGLIA GIOVANNI",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2530,
+     "nome": "FECCHIO MATTEO",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "CASTILLO JOHNNY",
+     "numero": 9,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2530,
+     "nome": "MIGOTTO ALVISE",
+     "numero": 9,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2539,
+     "nome": "NARDO NICOLO'",
+     "numero": 10,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    }
+   ],
+   "migliore": {
+    "squadraId": 2539,
+    "nome": "MORON DAVIDE"
    },
    "completo": true
   }
