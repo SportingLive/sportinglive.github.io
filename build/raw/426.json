@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-26T23:51:33+01:00",
+ "aggiornato": "2026-11-27T18:53:52+01:00",
  "idgirone": 426,
  "squadre": [
   {
@@ -11,12 +11,12 @@
    "nome": "TATANGA C5"
   },
   {
-   "id": 2552,
-   "nome": "I PIÙ CALMI"
-  },
-  {
    "id": 2545,
    "nome": "LEVIX GROUP"
+  },
+  {
+   "id": 2552,
+   "nome": "I PIÙ CALMI"
   },
   {
    "id": 2544,
@@ -72,9 +72,22 @@
     "dr": 11
    },
    {
+    "squadraId": 2545,
+    "nome": "LEVIX GROUP",
+    "pos": 3,
+    "pt": 13,
+    "g": 6,
+    "v": 4,
+    "n": 1,
+    "p": 1,
+    "gf": 50,
+    "gs": 29,
+    "dr": 21
+   },
+   {
     "squadraId": 2552,
     "nome": "I PIÙ CALMI",
-    "pos": 3,
+    "pos": 4,
     "pt": 11,
     "g": 6,
     "v": 3,
@@ -83,19 +96,6 @@
     "gf": 58,
     "gs": 39,
     "dr": 19
-   },
-   {
-    "squadraId": 2545,
-    "nome": "LEVIX GROUP",
-    "pos": 4,
-    "pt": 10,
-    "g": 5,
-    "v": 3,
-    "n": 1,
-    "p": 1,
-    "gf": 35,
-    "gs": 27,
-    "dr": 8
    },
    {
     "squadraId": 2544,
@@ -127,14 +127,14 @@
     "squadraId": 2550,
     "nome": "BOZKURT",
     "pos": 7,
-    "pt": 5,
-    "g": 5,
-    "v": 1,
+    "pt": 8,
+    "g": 6,
+    "v": 2,
     "n": 2,
     "p": 2,
-    "gf": 27,
-    "gs": 38,
-    "dr": -11
+    "gf": 40,
+    "gs": 47,
+    "dr": -7
    },
    {
     "squadraId": 2548,
@@ -154,26 +154,26 @@
     "nome": "BENVENUTI AL SUD",
     "pos": 9,
     "pt": 0,
-    "g": 5,
+    "g": 6,
     "v": 0,
     "n": 0,
-    "p": 5,
-    "gf": 22,
-    "gs": 49,
-    "dr": -27
+    "p": 6,
+    "gf": 24,
+    "gs": 64,
+    "dr": -40
    },
    {
     "squadraId": 2547,
     "nome": "F.C. DARDANIA",
     "pos": 10,
     "pt": 0,
-    "g": 5,
+    "g": 6,
     "v": 0,
     "n": 0,
-    "p": 5,
-    "gf": 18,
-    "gs": 56,
-    "dr": -38
+    "p": 6,
+    "gf": 27,
+    "gs": 69,
+    "dr": -42
    }
   ]
  },
@@ -581,9 +581,9 @@
    "ora": "20:30",
    "casaId": 2547,
    "ospiteId": 2550,
-   "golCasa": null,
-   "golOspite": null,
-   "giocata": false,
+   "golCasa": 9,
+   "golOspite": 13,
+   "giocata": true,
    "tavolino": false
   },
   {
@@ -593,9 +593,9 @@
    "ora": "21:30",
    "casaId": 2545,
    "ospiteId": 2549,
-   "golCasa": null,
-   "golOspite": null,
-   "giocata": false,
+   "golCasa": 15,
+   "golOspite": 2,
+   "giocata": true,
    "tavolino": false
   },
   {
@@ -6231,6 +6231,415 @@
    "migliore": {
     "squadraId": 2544,
     "nome": "MINICUCCI EMANUELE"
+   },
+   "completo": true
+  },
+  "14875": {
+   "marcatori": [
+    {
+     "squadraId": 2547,
+     "nome": "MORINA BARDH",
+     "minuto": 5
+    },
+    {
+     "squadraId": 2547,
+     "nome": "HOXHA VALDRIN",
+     "minuto": 12
+    },
+    {
+     "squadraId": 2547,
+     "nome": "MORINA BARDH",
+     "minuto": 19
+    },
+    {
+     "squadraId": 2547,
+     "nome": "LUSHAJ FERID",
+     "minuto": 21
+    },
+    {
+     "squadraId": 2547,
+     "nome": "MORINA BARDH",
+     "minuto": 23
+    },
+    {
+     "squadraId": 2547,
+     "nome": "CECCATO ALVISE",
+     "minuto": 28
+    },
+    {
+     "squadraId": 2547,
+     "nome": "CECCATO ALVISE",
+     "minuto": 30
+    },
+    {
+     "squadraId": 2547,
+     "nome": "MORINA BARDH",
+     "minuto": 33
+    },
+    {
+     "squadraId": 2547,
+     "nome": "MORINA BARDH",
+     "minuto": 42
+    },
+    {
+     "squadraId": 2550,
+     "nome": "MELIH MURAT",
+     "minuto": 4
+    },
+    {
+     "squadraId": 2550,
+     "nome": "SEMSI ALIL",
+     "minuto": 8
+    },
+    {
+     "squadraId": 2550,
+     "nome": "ASAN USNI",
+     "minuto": 11
+    },
+    {
+     "squadraId": 2550,
+     "nome": "MELIH MURAT",
+     "minuto": 15
+    },
+    {
+     "squadraId": 2550,
+     "nome": "ASAN USNI",
+     "minuto": 22
+    },
+    {
+     "squadraId": 2550,
+     "nome": "MELIH MURAT",
+     "minuto": 26
+    },
+    {
+     "squadraId": 2550,
+     "nome": "ASAN USNI",
+     "minuto": 29
+    },
+    {
+     "squadraId": 2550,
+     "nome": "HAJDAROGLU USEIN",
+     "minuto": 30
+    },
+    {
+     "squadraId": 2550,
+     "nome": "ASAN USNI",
+     "minuto": 31
+    },
+    {
+     "squadraId": 2550,
+     "nome": "ASAN USNI",
+     "minuto": 33
+    },
+    {
+     "squadraId": 2550,
+     "nome": "ASAN USNI",
+     "minuto": 37
+    },
+    {
+     "squadraId": 2550,
+     "nome": "HAJDAROGLU USEIN",
+     "minuto": 41
+    },
+    {
+     "squadraId": 2550,
+     "nome": "ASAN USNI",
+     "minuto": 44
+    }
+   ],
+   "formazioni": [
+    {
+     "squadraId": 2547,
+     "nome": "EGZON HAJDARI",
+     "numero": 1,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2550,
+     "nome": "FEJZO NEIM",
+     "numero": 1,
+     "voto": 8.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "HOXHAJ URIM",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2550,
+     "nome": "SEMSI ALIL",
+     "numero": 2,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "BEKOLLI RINOR",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2550,
+     "nome": "ASAN USNI",
+     "numero": 3,
+     "voto": 9.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "RAMADAN ZOGAJ",
+     "numero": 4,
+     "voto": 8.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2550,
+     "nome": "HAJDAROGLU USEIN",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "LUSHAJ FERID",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2550,
+     "nome": "MELIH MURAT",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "HOXHA VALDRIN",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "MORINA BARDH",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2547,
+     "nome": "CECCATO ALVISE",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    }
+   ],
+   "migliore": {
+    "squadraId": 2547,
+    "nome": "RAMADAN ZOGAJ"
+   },
+   "completo": true
+  },
+  "14877": {
+   "marcatori": [
+    {
+     "squadraId": 2545,
+     "nome": "MDELLEL NACEUR",
+     "minuto": 2
+    },
+    {
+     "squadraId": 2545,
+     "nome": "GENUALDI ALESSIO",
+     "minuto": 4
+    },
+    {
+     "squadraId": 2545,
+     "nome": "MDELLEL NACEUR",
+     "minuto": 11
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "minuto": 16
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "minuto": 16
+    },
+    {
+     "squadraId": 2545,
+     "nome": "MDELLEL NACEUR",
+     "minuto": 22
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "minuto": 23
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "minuto": 27
+    },
+    {
+     "squadraId": 2545,
+     "nome": "MOCCIA GIOVANNI",
+     "minuto": 30
+    },
+    {
+     "squadraId": 2545,
+     "nome": "GENUALDI ALESSIO",
+     "minuto": 34
+    },
+    {
+     "squadraId": 2545,
+     "nome": "GENUALDI ALESSIO",
+     "minuto": 42
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "minuto": 45
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "minuto": 49
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "minuto": 49
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "minuto": 52
+    },
+    {
+     "squadraId": 2549,
+     "nome": "FILECCIA PIETRO",
+     "minuto": 13
+    },
+    {
+     "squadraId": 2549,
+     "nome": "MAIESE GIUSEPPE",
+     "minuto": 42
+    }
+   ],
+   "formazioni": [
+    {
+     "squadraId": 2545,
+     "nome": "PJOLLA DEDE",
+     "numero": 1,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2549,
+     "nome": "FIORENTINO LUCA",
+     "numero": 1,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2545,
+     "nome": "MDELLEL NACEUR",
+     "numero": 2,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2549,
+     "nome": "DI BARI ALESSANDRO",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2545,
+     "nome": "GENUALDI ALESSIO",
+     "numero": 3,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2549,
+     "nome": "PALAZZOTTO DAVIDE",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2545,
+     "nome": "MOCCIA GIOVANNI",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2549,
+     "nome": "MAIESE GIUSEPPE",
+     "numero": 4,
+     "voto": 8.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2545,
+     "nome": "DABBOUSSI MOHAMED",
+     "numero": 5,
+     "voto": 8.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2549,
+     "nome": "FILECCIA PIETRO",
+     "numero": 5,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2545,
+     "nome": "MARJAN GJINAI",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    }
+   ],
+   "migliore": {
+    "squadraId": 2545,
+    "nome": "DABBOUSSI MOHAMED"
    },
    "completo": true
   }
