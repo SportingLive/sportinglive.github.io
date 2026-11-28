@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-26T23:51:21+01:00",
+ "aggiornato": "2026-11-28T02:01:01+01:00",
  "idgirone": 425,
  "squadre": [
   {
@@ -43,12 +43,12 @@
    "nome": "AUTOSANDONA'"
   },
   {
-   "id": 2536,
-   "nome": "F.C. PETTIMORTO"
-  },
-  {
    "id": 2531,
    "nome": "VENICE OUD"
+  },
+  {
+   "id": 2536,
+   "nome": "F.C. PETTIMORTO"
   },
   {
    "id": 2541,
@@ -65,13 +65,13 @@
     "squadraId": 2534,
     "nome": "ELYSIUM ENERGY GROUP",
     "pos": 1,
-    "pt": 24,
-    "g": 9,
+    "pt": 25,
+    "g": 10,
     "v": 8,
-    "n": 0,
+    "n": 1,
     "p": 1,
-    "gf": 32,
-    "gs": 15,
+    "gf": 34,
+    "gs": 17,
     "dr": 17
    },
    {
@@ -192,9 +192,22 @@
     "dr": -2
    },
    {
+    "squadraId": 2531,
+    "nome": "VENICE OUD",
+    "pos": 11,
+    "pt": 7,
+    "g": 10,
+    "v": 2,
+    "n": 1,
+    "p": 7,
+    "gf": 25,
+    "gs": 42,
+    "dr": -17
+   },
+   {
     "squadraId": 2536,
     "nome": "F.C. PETTIMORTO",
-    "pos": 11,
+    "pos": 12,
     "pt": 7,
     "g": 10,
     "v": 2,
@@ -203,19 +216,6 @@
     "gf": 16,
     "gs": 35,
     "dr": -19
-   },
-   {
-    "squadraId": 2531,
-    "nome": "VENICE OUD",
-    "pos": 12,
-    "pt": 6,
-    "g": 9,
-    "v": 2,
-    "n": 0,
-    "p": 7,
-    "gf": 23,
-    "gs": 40,
-    "dr": -17
    },
    {
     "squadraId": 2541,
@@ -1153,9 +1153,9 @@
    "ora": "21:30",
    "casaId": 2531,
    "ospiteId": 2534,
-   "golCasa": null,
-   "golOspite": null,
-   "giocata": false,
+   "golCasa": 2,
+   "golOspite": 2,
+   "giocata": true,
    "tavolino": false
   },
   {
@@ -15698,6 +15698,181 @@
    "migliore": {
     "squadraId": 2539,
     "nome": "MORON DAVIDE"
+   },
+   "completo": true
+  },
+  "14777": {
+   "marcatori": [
+    {
+     "squadraId": 2531,
+     "nome": "STEVANATO DAVIDE",
+     "minuto": 32
+    },
+    {
+     "squadraId": 2531,
+     "nome": "BIEMMI NICOLO'",
+     "minuto": 43
+    },
+    {
+     "squadraId": 2534,
+     "nome": "MELNYCHUK NAZAR",
+     "minuto": 26
+    },
+    {
+     "squadraId": 2534,
+     "nome": "MUSTALI EDISON",
+     "minuto": 47
+    }
+   ],
+   "formazioni": [
+    {
+     "squadraId": 2531,
+     "nome": "TENDERINI LORENZO",
+     "numero": 1,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2534,
+     "nome": "MARINO ROBERTO",
+     "numero": 1,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2531,
+     "nome": "MARANI ANDREA",
+     "numero": 2,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2534,
+     "nome": "FADALTI ANDREA",
+     "numero": 2,
+     "voto": null,
+     "ammonito": true,
+     "espulso": false
+    },
+    {
+     "squadraId": 2531,
+     "nome": "TREVISAN JACOPO",
+     "numero": 3,
+     "voto": null,
+     "ammonito": true,
+     "espulso": false
+    },
+    {
+     "squadraId": 2534,
+     "nome": "BOCCATO NICOLA",
+     "numero": 3,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2531,
+     "nome": "AHMED HRAIRI",
+     "numero": 4,
+     "voto": null,
+     "ammonito": true,
+     "espulso": true
+    },
+    {
+     "squadraId": 2534,
+     "nome": "KHALISSI ALESSANDRO",
+     "numero": 4,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2531,
+     "nome": "STEVANATO DAVIDE",
+     "numero": 5,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2534,
+     "nome": "PROTO RICCARDO",
+     "numero": 5,
+     "voto": null,
+     "ammonito": true,
+     "espulso": false
+    },
+    {
+     "squadraId": 2531,
+     "nome": "BIEMMI NICOLO'",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2534,
+     "nome": "CREGLIA ALESSIO",
+     "numero": 6,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2531,
+     "nome": "ANATRA' STEFANO",
+     "numero": 7,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2534,
+     "nome": "MELNYCHUK NAZAR",
+     "numero": 7,
+     "voto": 7.0,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2531,
+     "nome": "BUSETTO ALVISE",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2534,
+     "nome": "ZENNARO FRANCESCO",
+     "numero": 8,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2531,
+     "nome": "PETRITI KEVIN",
+     "numero": 9,
+     "voto": null,
+     "ammonito": false,
+     "espulso": false
+    },
+    {
+     "squadraId": 2534,
+     "nome": "MUSTALI EDISON",
+     "numero": 9,
+     "voto": 6.5,
+     "ammonito": false,
+     "espulso": false
+    }
+   ],
+   "migliore": {
+    "squadraId": 2531,
+    "nome": "TENDERINI LORENZO"
    },
    "completo": true
   }
